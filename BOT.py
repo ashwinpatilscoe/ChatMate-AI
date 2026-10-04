@@ -22,6 +22,7 @@ while True:
     # -------------------------------
     # SELECT WHATSAPP CHAT
     # -------------------------------
+    pyautogui.click(728, 204)
     pyautogui.moveTo(728, 204, duration=0.3)
     pyautogui.mouseDown()
     pyautogui.moveTo(1843, 919, duration=1)
